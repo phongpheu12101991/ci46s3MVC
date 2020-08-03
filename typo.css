@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-size: 14px;
+  font-family: "Roboto";
+}
+.text-head-l {
+  font-size: 32px;
+  font-family: "Open Sans";
+}
+
+.text-head-m {
+  font-size: 24px;
+  font-family: "Open Sans";
+}
+
+.text-head-s {
+  font-size: 18px;
+  font-family: "Open Sans";
+}
+
+.text-body-l {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+.text-body-m {
+  font-size: 14px;
+  font-family: "Roboto";
+}
+.text-body-s {
+  font-size: 12px;
+  font-family: "Roboto";
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}

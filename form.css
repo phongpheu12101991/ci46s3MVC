@@ -1,0 +1,65 @@
+.input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-container {
+  margin: 10px 0;
+}
+
+.input-container.line-break {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container.line-break > label {
+  margin-bottom: 5px;
+}
+
+.input-container.line-break:focus-within {
+  color: rgb(24, 119, 242);
+}
+.input:focus {
+  border-bottom: 2px solid rgb(24, 119, 242);
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  color: rgb(24, 119, 242);
+}
+
+.btn-primary {
+  background-color: rgb(179, 201, 247);
+}
+
+.input {
+  width: 85%;
+}
+
+#divbut {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.input + label {
+  color: gray;
+}
+
+.link {
+  color: darkcyan;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: cyan;
+}
+
+.btn:hover {
+  background-color: darkblue;
+}

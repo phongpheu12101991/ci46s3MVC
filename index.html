@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindX Chat</title>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+
+  <!-- loginscreen: start -->
+  <template id="loginscreen">
+    <link rel="stylesheet" href="./views/styles/index.css" />
+    <div class="text-head-m">MindX Firebase Chat App</div>
+    <form action="" id="formlogin">
+      <form-input
+        name="email"
+        type="text"
+        label="Email"
+        class="line-break input-container"
+      ></form-input>
+      <form-input
+        name="password"
+        type="password"
+        label="Password"
+        class="line-break input-container"
+      ></form-input>
+      <div class="d-flex j-sb">
+        <button type="submit" class="btn btn-primary">Login</button>
+        <span class="link" id="linktoRegister">Regitser now!</span>
+      </div>
+    </form>
+  </template>
+  <!-- loginscreen: end -->
+
+  <!-- register-screen: start -->
+  <template id="registerscreen">
+    <link rel="stylesheet" href="./views/styles/index.css" />
+    <div class="text-head-m">MindX Firebase Chat App</div>
+    <form action="" id="formregister">
+      <form-input
+        name="email"
+        type="text"
+        label="Email"
+        class="line-break input-container"
+      ></form-input>
+      <form-input
+        type="password"
+        label="Password"
+        class="line-break input-container"
+      ></form-input>
+      <form-input
+        name="password"
+        type="password"
+        label="Confirm Password"
+        class="line-break input-container"
+      ></form-input>
+      <div class="d-flex j-sb">
+        <button type="submit" class="btn btn-primary">Register</button>
+        <span class="link" id="linktoLogin">Login now!</span>
+      </div>
+    </form>
+  </template>
+  <!-- register-screen: end -->
+
+  <!-- form-input: start -->
+  <template id="forminput">
+    <link rel="stylesheet" href="./views/styles/index.css" />
+    <div id="container" class="d-flex f-c">
+      <label id="label"></label>
+      <input id="input" class="input" />
+    </div>
+  </template>
+  <!-- form-input: end -->
+
+  <script src="index.js" type="module"></script>
+</html>
