@@ -21,7 +21,7 @@ class LoginScreen extends HTMLElement {
   }
   login() {
     let email = this.$form.querySelector('form-input[name="email"]').value;
-    let email = this.$form.querySelector('form-input[name="password"]').value;
+    let password = this.$form.querySelector('form-input[name="password"]').value;
     login(email, password);
   }
 }
